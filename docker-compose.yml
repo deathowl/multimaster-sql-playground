@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  bdr1:
+    image: agios/postgres-bdr
+    ports:
+      - "5001:5432"
+  bdr2:
+    image: agios/postgres-bdr    
+    ports:  
+      - "5002:5432"
+  bdr3:
+    image: agios/postgres-bdr
+    ports:
+      - "5003:5432"
+  bdr4:
+    image: agios/postgres-bdr
+    ports:
+      - "5004:5432"
+  bdr5:
+    image: agios/postgres-bdr
+    ports:
+      - "5005:5432"
